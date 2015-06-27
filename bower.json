@@ -1,0 +1,23 @@
+{
+  "name": "origami",
+  "version": "0.1.0",
+  "homepage": "https://github.com/chickencoder/origami",
+  "authors": [
+    "chickencoder <jesse_sibley@outlook.com>"
+  ],
+  "description": "A pure mobile-first responsive CSS3 library for creating modern web pages and interfaces without unnecessary bulk",
+  "keywords": [
+    "css",
+    "responsive",
+    "mobile-first",
+    "web"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
