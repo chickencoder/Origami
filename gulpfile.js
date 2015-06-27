@@ -10,8 +10,18 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./dist'));
 });
 
+gulp.task('css', function() {
+  gulp.src('./dist/*.css')
+  .pipe(ugli({}))
+  .pipe(gulp.dest('./dist/'));
+});
+
 gulp.task('sass:watch', function() {
   gulp.watch('./src/*.scss', ['sass']);
 });
 
-gulp.default(['sass']);
+gulp.task('css:watch', function() {
+  gulp.watch('./dist/*.css', ['css']);
+});
+
+gulp.task('default', ['sass', 'css']);
