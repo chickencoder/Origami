@@ -11,12 +11,23 @@ The framework is designed to be completely customizable through the source code 
 ## Overview
 #### Ideology
 The primary focus of origami is to provide a solid library for
-creating aestheic, functional and garbage-less web pages.
+creating aestheic and practical web pages. If it's not required, it's not there.
 
 The framework includes...
 * A Folding Grid System
+* A Responsive Typography Palette
+* Beautiful Forms & Navigation
 
 ## Installation
+Origami is extremely easy to install with bower...
+```bash
+  bower install origami-css
+```
+
+or just clone the github repo...
+```bash
+  git clone https://github.com/chickencoder/origami
+```
 
 ## Using Origami
 
