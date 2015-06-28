@@ -1,0 +1,29 @@
+// _grid.css
+
+@function calc-col-width ($width) {
+  @return (100% / $grid-width-columns) * $width;
+}
+
+.grid { width: 100% }
+
+.grid *{
+  box-sizing: border-box;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: $grid-gutter-size;
+}
+
+@for $w from 1 through $grid-width-columns {
+  .s-#{$w} {
+    width: calc-col-width($w);
+  }
+}
