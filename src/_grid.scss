@@ -1,5 +1,10 @@
 // _grid.css
 
+// Calculates percentage width of
+// a column depending on ratio of
+// width of column and number of
+// columns in the grid (global
+// declared in _settings.scss).
 @function calc-col-width ($width) {
   @return (100% / $grid-width-columns) * $width;
 }
@@ -22,8 +27,40 @@
   padding: $grid-gutter-size;
 }
 
+// Generate grid columns for 'small'
+// devices (default size).
 @for $w from 1 through $grid-width-columns {
   .s-#{$w} {
     width: calc-col-width($w);
+  }
+}
+
+// Generate grid columns for 'medium'
+// devices (768px minimun) Tablets etc.
+@media (min-width: 768px) {
+  @for $w from 1 through $grid-width-columns {
+    .m-#{$w} {
+      width: calc-col-width($w);
+    }
+  }
+}
+
+// Generate grid columns for 'large'
+// devices (970px minimun) Desktops etc.
+@media (min-width: 970px) {
+  @for $w from 1 through $grid-width-columns {
+    .l-#{$w} {
+      width: calc-col-width($w);
+    }
+  }
+}
+
+// Generate grid columns for 'wide'
+// devices (1200px minimun) IMacs etc.
+@media (min-width: 1200px) {
+  @for $w from 1 through $grid-width-columns {
+    .w-#{$w} {
+      width: calc-col-width($w);
+    }
   }
 }
