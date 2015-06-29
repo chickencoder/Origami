@@ -1,4 +1,4 @@
-# Origami CSS
+# Origami
 A pure mobile-first responsive CSS3 library for creating modern web pages and interfaces without
 unnecessary bulk.
 
@@ -13,8 +13,13 @@ The framework is designed to be completely customizable through the source code 
 The primary focus of origami is to provide a solid library for
 creating aestheic and practical web pages. If it's not required, it's not there.
 
-The framework includes...
+The framework (will eventually) include...
 * A Folding Grid System
+* A Responsive Typography Palette
+* Beautiful Forms & Navigation
+* Color Flavours (based on github.com/mmrs/colors)
+
+Still to be implemented...
 * A Responsive Typography Palette
 * Beautiful Forms & Navigation
 
@@ -30,6 +35,12 @@ or just clone the github repo...
 ```
 
 ## Using Origami
+To include Origami in your project just link it.
+```html
+  <link rel="stylesheet" href="/path/to/origami.css">
+  <!-- It is recommended your use the minified version! -->
+  <link rel="stylesheet" href="/path/to/origami.min.css">
+```
 
 ## Bugs or Issues
 
