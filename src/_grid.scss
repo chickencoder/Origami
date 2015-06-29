@@ -9,9 +9,9 @@
   @return (100% / $grid-width-columns) * $width;
 }
 
-.grid { width: 100% }
+.row { width: 100% }
 
-.grid *{
+.row *{
   box-sizing: border-box;
 }
 
