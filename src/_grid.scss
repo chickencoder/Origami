@@ -9,6 +9,11 @@
   @return (100% / $grid-width-columns) * $width;
 }
 
+.container {
+  margin: $container-margin;
+  box-sizing: border-box;
+}
+
 .row { width: 100% }
 
 .row *{
@@ -30,7 +35,7 @@
 // Generate grid columns for 'small'
 // devices (default size).
 @for $w from 1 through $grid-width-columns {
-  .s-#{$w} {
+  .col-s-#{$w} {
     width: calc-col-width($w);
   }
 }
@@ -39,7 +44,7 @@
 // devices (768px minimun) Tablets etc.
 @media (min-width: 768px) {
   @for $w from 1 through $grid-width-columns {
-    .m-#{$w} {
+    .col-m-#{$w} {
       width: calc-col-width($w);
     }
   }
@@ -49,7 +54,7 @@
 // devices (970px minimun) Desktops etc.
 @media (min-width: 970px) {
   @for $w from 1 through $grid-width-columns {
-    .l-#{$w} {
+    .col-l-#{$w} {
       width: calc-col-width($w);
     }
   }
@@ -59,7 +64,7 @@
 // devices (1200px minimun) IMacs etc.
 @media (min-width: 1200px) {
   @for $w from 1 through $grid-width-columns {
-    .w-#{$w} {
+    .col-4w-#{$w} {
       width: calc-col-width($w);
     }
   }

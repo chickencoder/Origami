@@ -1,0 +1,5 @@
+// _fonts.scss
+
+@include font-face('Raleway', font-files("fonts/Raleway/Raleway-Regular.ttf"));
+@include font-face('Raleway Bold', font-files("fonts/Raleway/Raleway-Bold.ttf"));
+@include font-face('Raleway Light', font-files("fonts/Raleway/Raleway-Light.ttf"));

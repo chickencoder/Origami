@@ -17,6 +17,10 @@ ol {
   margin: 0;
   padding: 0; }
 
+.container {
+  margin: 20px;
+  box-sizing: border-box; }
+
 .row {
   width: 100%; }
 
@@ -31,118 +35,118 @@ ol {
 
 [class*="col-"] {
   float: left;
-  padding: 2rem; }
+  padding: 20px; }
 
-.s-1 {
+.col-s-1 {
   width: 8.33333%; }
 
-.s-2 {
+.col-s-2 {
   width: 16.66667%; }
 
-.s-3 {
+.col-s-3 {
   width: 25%; }
 
-.s-4 {
+.col-s-4 {
   width: 33.33333%; }
 
-.s-5 {
+.col-s-5 {
   width: 41.66667%; }
 
-.s-6 {
+.col-s-6 {
   width: 50%; }
 
-.s-7 {
+.col-s-7 {
   width: 58.33333%; }
 
-.s-8 {
+.col-s-8 {
   width: 66.66667%; }
 
-.s-9 {
+.col-s-9 {
   width: 75%; }
 
-.s-10 {
+.col-s-10 {
   width: 83.33333%; }
 
-.s-11 {
+.col-s-11 {
   width: 91.66667%; }
 
-.s-12 {
+.col-s-12 {
   width: 100%; }
 
 @media (min-width: 768px) {
-  .m-1 {
+  .col-m-1 {
     width: 8.33333%; }
-  .m-2 {
+  .col-m-2 {
     width: 16.66667%; }
-  .m-3 {
+  .col-m-3 {
     width: 25%; }
-  .m-4 {
+  .col-m-4 {
     width: 33.33333%; }
-  .m-5 {
+  .col-m-5 {
     width: 41.66667%; }
-  .m-6 {
+  .col-m-6 {
     width: 50%; }
-  .m-7 {
+  .col-m-7 {
     width: 58.33333%; }
-  .m-8 {
+  .col-m-8 {
     width: 66.66667%; }
-  .m-9 {
+  .col-m-9 {
     width: 75%; }
-  .m-10 {
+  .col-m-10 {
     width: 83.33333%; }
-  .m-11 {
+  .col-m-11 {
     width: 91.66667%; }
-  .m-12 {
+  .col-m-12 {
     width: 100%; } }
 
 @media (min-width: 970px) {
-  .l-1 {
+  .col-l-1 {
     width: 8.33333%; }
-  .l-2 {
+  .col-l-2 {
     width: 16.66667%; }
-  .l-3 {
+  .col-l-3 {
     width: 25%; }
-  .l-4 {
+  .col-l-4 {
     width: 33.33333%; }
-  .l-5 {
+  .col-l-5 {
     width: 41.66667%; }
-  .l-6 {
+  .col-l-6 {
     width: 50%; }
-  .l-7 {
+  .col-l-7 {
     width: 58.33333%; }
-  .l-8 {
+  .col-l-8 {
     width: 66.66667%; }
-  .l-9 {
+  .col-l-9 {
     width: 75%; }
-  .l-10 {
+  .col-l-10 {
     width: 83.33333%; }
-  .l-11 {
+  .col-l-11 {
     width: 91.66667%; }
-  .l-12 {
+  .col-l-12 {
     width: 100%; } }
 
 @media (min-width: 1200px) {
-  .w-1 {
+  .col-4w-1 {
     width: 8.33333%; }
-  .w-2 {
+  .col-4w-2 {
     width: 16.66667%; }
-  .w-3 {
+  .col-4w-3 {
     width: 25%; }
-  .w-4 {
+  .col-4w-4 {
     width: 33.33333%; }
-  .w-5 {
+  .col-4w-5 {
     width: 41.66667%; }
-  .w-6 {
+  .col-4w-6 {
     width: 50%; }
-  .w-7 {
+  .col-4w-7 {
     width: 58.33333%; }
-  .w-8 {
+  .col-4w-8 {
     width: 66.66667%; }
-  .w-9 {
+  .col-4w-9 {
     width: 75%; }
-  .w-10 {
+  .col-4w-10 {
     width: 83.33333%; }
-  .w-11 {
+  .col-4w-11 {
     width: 91.66667%; }
-  .w-12 {
+  .col-4w-12 {
     width: 100%; } }
