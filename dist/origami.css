@@ -17,10 +17,10 @@ ol {
   margin: 0;
   padding: 0; }
 
-.grid {
+.row {
   width: 100%; }
 
-.grid * {
+.row * {
   box-sizing: border-box; }
 
 .row:before,
