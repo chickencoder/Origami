@@ -64,7 +64,7 @@
 // devices (1200px minimun) IMacs etc.
 @media (min-width: 1200px) {
   @for $w from 1 through $grid-width-columns {
-    .col-4w-#{$w} {
+    .col-w-#{$w} {
       width: calc-col-width($w);
     }
   }
