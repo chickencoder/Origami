@@ -1,6 +1,8 @@
 // _typo.scss
 
 .container {
-  font-family: Raleway;
-  color: $navy;
+  font-family: Raleway, sans-serif;
 }
+
+.light { color: $body-grey-dark };
+.dark { color: $body-grey-light };
