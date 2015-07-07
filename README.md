@@ -1,5 +1,5 @@
 # Origami
-![Origami Logo](/assets/logo.svg?raw=true "Origami Logo")
+![Origami Logo](/assets/logo.svg?raw=true)
 A pure mobile-first responsive CSS3 library for creating modern web pages and interfaces without
 unnecessary bulk.
 
