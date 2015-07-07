@@ -1,8 +1,30 @@
 // _typo.scss
 
+@import 'colors';
+
 .container {
+  font-family: Raleway, sans-serif;
+  font-size: 62.5%;
+  color: $body-grey;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  margin: 0;
+  margin: 10px;
   font-family: Raleway, sans-serif;
 }
 
-.light { color: $body-grey-dark };
-.dark { color: $body-grey-light };
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1rem; }
+h5 { font-size: 0.5rem; }
+
+@media (min-width: 400px, max-width: 700px) {
+  h1 { font-size: 4rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 0.5rem; }
+  h5 { font-size: 0.3rem; }
+}

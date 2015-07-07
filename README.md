@@ -25,6 +25,9 @@ Still to be implemented...
 
 ## Installation
 Origami is extremely easy to install with bower...
+<br>
+**Note: Likely to change to npm...**
+
 ```bash
   bower install origami-css
 ```
@@ -36,7 +39,9 @@ or just clone the github repo...
 
 ## Using Origami
 To include Origami in your project just link it.
+**Don't forget to specifiy the viewport!**
 ```html
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/path/to/origami.css">
   <!-- It is recommended your use the minified version! -->
   <link rel="stylesheet" href="/path/to/origami.min.css">
