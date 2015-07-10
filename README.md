@@ -1,5 +1,5 @@
 # Origami
-![Origami Logo](http://postimg.org/image/66i417t91/)
+![Origami Logo](http://s18.postimg.org/pbldaz7x5/logo.png)
 A pure mobile-first responsive CSS3 library for creating modern web pages and interfaces without
 unnecessary bulk.
 
