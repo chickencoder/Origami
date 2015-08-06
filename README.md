@@ -9,6 +9,8 @@ The framework is designed to be completely customizable through the source code 
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/chickencoder/origami)
 
+[![Join the chat at https://gitter.im/chickencoder/Origami](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/chickencoder/Origami?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Overview
 #### Ideology
 The primary focus of origami is to provide a solid library for
